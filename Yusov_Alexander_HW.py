@@ -34,7 +34,7 @@ def stop_filter(packet):
     return stop_sniffing
 
 print("[*] Запуск перехвата...")
-print("[*] Напиши во второй консоли запрос через curl к google-gruyere")
+print("[*] Теперь можно написать во второй консоли запрос через curl к google-gruyere")
 gruyere_ip = "142.251.143.148"
 my_interface = "eth0"
 
