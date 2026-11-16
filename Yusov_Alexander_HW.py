@@ -54,3 +54,7 @@ if packets:
     print(f"\n[*] УСПЕХ! Найден XSS. Дамп сохранен: {filename}")
 else:
     print("\n[-] Захват завершен, но пакетов нет!")
+
+# Для перехвата во второй консоли вводим
+# curl "http://142.251.143.148/343687846836929813505771718580803786545/%3Cscript%3Ealert('XSS')%3C/script%3E?test=123" -H "Host: google-gruyere.appspot.com"
+# Ну и профит ) 
